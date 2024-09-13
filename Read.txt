@@ -1,0 +1,25 @@
+
+
+-------> First Open the Command Prompt 
+-------> Then change the directory.
+-------> i.e change current directory to the directory in whhich you are coding.
+-------> Like i am coding in the SQLITE folder 
+
+Microsoft Windows [Version 10.0.22621.819]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Luvkush sharma>cd "C:\Users\Luvkush sharma\Desktop\DBMS\Sqlite"
+
+C:\Users\Luvkush sharma\Desktop\DBMS\Sqlite>
+
+
+------> Now write below code to run the python file
+
+C:\Users\Luvkush sharma\Desktop\DBMS\Sqlite>python Table_Creation.py
+Traceback (most recent call last):
+  File "C:\Users\Luvkush sharma\Desktop\DBMS\Sqlite\Table_Creation.py", line 28, in <module>
+    c.execute(sql)
+sqlite3.OperationalError: table customers already exists
+
+C:\Users\Luvkush sharma\Desktop\DBMS\Sqlite>python Insert_Record.py
+Command executed and Commited successfully.
